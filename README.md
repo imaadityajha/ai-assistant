@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A Final year Project Made by batch - 8 of Computer Science and Engineering Department of Aditya University
 
 ---
@@ -180,3 +181,7 @@ ai-tutor/
 - **Abhay Kumar Yadav**
 - **Palli Harshavardhan**
 - **Suraj Kumar**
+=======
+# ai-assistant
+Personal AI Assistant is a full-stack intelligent tutoring system developed as a final year project. It leverages the power of modern web technologies to create a responsive, interactive, and personalized learning experience for students.
+>>>>>>> c34a6b0c62bca5e6e27a435c4d93e1d67ffa5144
