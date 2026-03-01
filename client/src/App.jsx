@@ -14,7 +14,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   const fetchCurrent = async () => {
-    const res = await fetch('http://localhost:8000/api/v1/users/getCurrentUser',
+    const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/users/getCurrentUser',
       {
         method: 'GET',
         credentials: 'include',

@@ -51,7 +51,7 @@ export default function ForgotPassword() {
     setIsLoading(true)
     setMessage(null)
     try {
-      const res = await fetch('http://localhost:8000/api/v1/users/forgotPassword', {
+      const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/users/forgotPassword', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
@@ -83,7 +83,7 @@ export default function ForgotPassword() {
     setIsLoading(true)
     setMessage(null)
     try {
-      const res = await fetch('http://localhost:8000/api/v1/users/forgotPassword', {
+      const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/users/forgotPassword', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId }),

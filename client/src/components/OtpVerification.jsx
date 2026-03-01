@@ -62,7 +62,7 @@ export default function OtpVerification() {
 		const completeOtp = otp.join("");
 
 		try {
-			const response = await fetch("http://localhost:8000/api/v1/users/verifyOTP", {
+			const response = await fetch("https://ai-assistant-1-htd9.onrender.com/api/v1/users/verifyOTP", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ otp: completeOtp, email }),

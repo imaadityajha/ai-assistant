@@ -50,7 +50,7 @@ function Wikipedia() {
 			setLoading(true); // Start loading
 			try {
 				const response = await fetch(
-					`http://localhost:8000/api/v1/wikipedia/search?query=${encodeURIComponent(query)}`,
+					`https://ai-assistant-1-htd9.onrender.com/api/v1/wikipedia/search?query=${encodeURIComponent(query)}`,
 					{
 						credentials: 'include'
 					}

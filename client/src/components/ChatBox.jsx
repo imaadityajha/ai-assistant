@@ -143,7 +143,7 @@ function ChatBox() {
 
 		try {
 			const response = await fetch(
-				"http://localhost:8000/api/v1/chat/getResponse",
+				"https://ai-assistant-1-htd9.onrender.com/api/v1/chat/getResponse",
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },

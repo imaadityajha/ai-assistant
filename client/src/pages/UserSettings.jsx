@@ -67,7 +67,7 @@ function UserSettings() {
 		setIsLoggingOut(true);
 		try {
 			const res = await fetch(
-				"http://localhost:8000/api/v1/users/logout",
+				"https://ai-assistant-1-htd9.onrender.com/api/v1/users/logout",
 				{
 					method: "POST",
 					credentials: "include",
@@ -126,7 +126,7 @@ function UserSettings() {
 	const handleSaveProfile = async () => {
 		setIsSaving(true);
 		try {
-			const res = await fetch("http://localhost:8000/api/v1/users/update-account", {
+			const res = await fetch("https://ai-assistant-1-htd9.onrender.com/api/v1/users/update-account", {
 				method: "PATCH",
 				headers: {
 					"Content-Type": "application/json",

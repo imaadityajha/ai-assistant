@@ -48,7 +48,7 @@ const YouTube = () => {
 			setLoading(true);
 			try {
 				const response = await fetch(
-					`http://localhost:8000/api/v1/youtube/search?query=${encodeURIComponent(query + " education")}`,
+					`https://ai-assistant-1-htd9.onrender.com/api/v1/youtube/search?query=${encodeURIComponent(query + " education")}`,
 					{
 						credentials: 'include'
 					}

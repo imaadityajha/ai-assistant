@@ -66,7 +66,7 @@ export default function ResetPassword() {
     setMessage(null)
 
     try {
-      const res = await fetch('http://localhost:8000/api/v1/users/resetPassword', {
+      const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/users/resetPassword', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ token, newPassword }),

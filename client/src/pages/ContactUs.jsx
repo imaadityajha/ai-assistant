@@ -76,7 +76,7 @@ export default function ContactUs() {
     setSuccessMessage('');
 
     try {
-      const response = await fetch('http://localhost:8000/api/v1/contact/send', {
+      const response = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/contact/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

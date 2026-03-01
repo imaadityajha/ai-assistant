@@ -89,8 +89,8 @@ function LoginSignup() {
 		setIsLoading(true);
 
 		const endpoint = isSignUp
-			? "http://localhost:8000/api/v1/users/register"
-			: "http://localhost:8000/api/v1/users/login";
+			? "https://ai-assistant-1-htd9.onrender.com/api/v1/users/register"
+			: "https://ai-assistant-1-htd9.onrender.com/api/v1/users/login";
 
 		const body = isSignUp
 			? {

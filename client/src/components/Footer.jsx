@@ -70,7 +70,7 @@ export default function Footer() {
 
         setIsLoading(true);
         try {
-            const res = await fetch('http://localhost:8000/api/v1/contact/subscribe', {
+            const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/contact/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),

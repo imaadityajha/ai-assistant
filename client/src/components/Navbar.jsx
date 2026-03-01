@@ -59,7 +59,7 @@ export default function Navbar() {
 
     const handleLogout = async () => {
         try {
-            const res = await fetch('http://localhost:8000/api/v1/users/logout', {
+            const res = await fetch('https://ai-assistant-1-htd9.onrender.com/api/v1/users/logout', {
                 method: 'POST',
                 credentials: 'include',
             });
